@@ -1,0 +1,43 @@
+.main {
+  display: flex;
+}
+.section-1 {
+  width: 35vw;
+  padding: 80px;
+  text-align: center;
+  line-height: 3;
+}
+.head {
+  color: #fb5b16;
+}
+.btn {
+  padding: 10px;
+  border: 0;
+  width: 30%;
+  border-radius: 15px;
+  background-color: #fb5b16;
+  color: white;
+}
+.para {
+  padding-bottom: 50px;
+}
+.left {
+  text-align: left;
+}
+
+@media only screen and (max-width: 1150px) {
+  .main {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .left {
+    text-align: center;
+  }
+  .section-1 {
+    width: 100vw;
+  }
+  .section-2 {
+    width: 80vw;
+  }
+}

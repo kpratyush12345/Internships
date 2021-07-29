@@ -1,0 +1,31 @@
+.skills {
+  display: flex;
+  justify-content: center;
+  padding: 30px;
+}
+
+.pad {
+  text-align: center;
+  justify-content: center;
+  padding: 30px;
+  font-weight: bold;
+}
+
+.pad p {
+  padding-top: 10px;
+}
+
+.skill {
+  text-align: center;
+}
+
+.orange {
+  color: #fb5b16;
+}
+
+@media only screen and (max-width: 860px) {
+  .skills {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
